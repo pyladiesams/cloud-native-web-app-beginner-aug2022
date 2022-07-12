@@ -1,10 +1,20 @@
 
-# An introduction to { YOUR TOPIC } or A deep dive into { YOUR TOPIC }
-### Level: Beginner or Advanced
+# An introduction to cloud-native web applications
+### Level: Beginner 
 ### Presentation: [Presentation_name](workshop/Presentation_template.pptx)
 
 ## Workshop description
-Describe why your topic is important and what you want to share with your audience
+During the workshop you will learn "how a website works" in detail, how a simple and modern web application works with the help of cloud computing.
+
+In this workshop, we will go through these topics:
+
+* A brief introduction to cloud computing
+* What is a cloud-native web application (and where Python plays a role) Front-end
+* Back-end
+* Storage
+* Message queue
+* Microservice architecture
+
 
 ## Requirements
 Do not forget to indicate Python version and any other tools
@@ -15,7 +25,7 @@ Do not forget to indicate Python version and any other tools
 * Start { TOOL } and navigate to the workshop folder
 
 ## Video record
-Re-watch YouTube stream [here](link)
+Re-watch YouTube stream [here](https://youtu.be/x1wzl0prjBc)
 
 ## Credits
 This workshop was set up by @pyladiesams and {your github handler}
