@@ -22,11 +22,12 @@ In general, this workshop will guide you through the concepts, elements and comp
 At the end of the workshop, we will give a demo to deploy a Django App to Google Cloud Run, a managed compute platform that lets you run containers directly on Google's infrastructure. If you want to try it yourself, you can register your Google Cloud account at: https://console.cloud.google.com/.
 
 Dependencies:
-* Python 3.10
-* Django 4.0
+* [Docker 4.10.1](https://www.docker.com/products/docker-desktop/)
+* [gcloud CLI](https://cloud.google.com/sdk/docs/install)
 
 ## Usage
-* TODO
+* Download [`Dockerfile`](./workshop/django-cloud-run/Dockerfile) and [`requirements.txt`](./workshop/django-cloud-run/requirements.txt) to the same directory.
+* Use `docker build -t app .` to build the context in the current diretory with the name `app`.
 
 ## Video record
 Re-watch YouTube stream [here](https://youtu.be/x1wzl0prjBc)
