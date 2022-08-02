@@ -1,7 +1,8 @@
 
 # An introduction to cloud-native web applications
+
 ### Level: Beginner 
-### Presentation: [Presentation_name](workshop/Presentation_template.pptx)
+### Presentation: [Introduction to Cloud-native Web Applications](workshop/intro-to-cloud-native-web-apps.pdf)
 
 ## Workshop description
 During the workshop you will learn "how a website works" in detail, how a simple and modern web application works with the help of cloud computing.
@@ -28,6 +29,7 @@ Dependencies:
 ## Usage
 * Download [`Dockerfile`](./workshop/django-cloud-run/Dockerfile) and [`requirements.txt`](./workshop/django-cloud-run/requirements.txt) to the same directory.
 * Use `docker build -t app .` to build the context in the current diretory with the name `app`.
+* Deploy the Docker image to Google Cloud. This will be given in the demo session in the presentation.
 
 ## Video record
 Re-watch YouTube stream [here](https://youtu.be/x1wzl0prjBc)
