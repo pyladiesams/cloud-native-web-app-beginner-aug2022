@@ -29,7 +29,7 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY . .
-CMD python manage.py runserver 0.0.0.0:80
+CMD python manage.py runserver 0.0.0.0:8080
 ```
 
 - `FROM python:3.10-alpine`: This will install Python 3.10 Alpine. This image is based on the popular Alpine Linux project, available in the alpine official image. Alpine Linux is much smaller than most distribution base images (~5MB), and thus leads to much slimmer images in general.
