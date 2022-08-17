@@ -93,6 +93,8 @@ In order to build the image, we need to execute this command:
 docker build -t app . --platform linux/amd64
 ```
 
+Note: The `--platform linux/amd64` is only necessary for people using Mac with Apple Silicon.
+
 This will name the image with `app`, and select what's in the current directory (`.` at the end) as the context to build.
 
 ## Push the Docker image to the Cloud (Google Container Registry)
